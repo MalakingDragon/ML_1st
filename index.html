@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joshua Caspillo - Personal CV</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+            line-height: 1.6;
+        }
+        .contact h1 {
+            font-size: 2.5em;
+            margin-bottom: 5px;
+        }
+        .contact h4 {
+            margin: 5px 0;
+        }
+        .contact a {
+            color: #548533;
+            text-decoration: none;
+        }
+        .contact a:hover {
+            text-decoration: underline;
+        }
+        .personal h2 {
+            margin-top: 20px;
+            font-size: 1.8em;
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 5px;
+        }
+        .personal p {
+            margin-left: 20px;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <div class="contact">
+        <h1>Joshua Caspillo</h1>
+        <h4>Facebook: <a href="https://www.facebook.com/joshua.caspillo.94/" target="_blank">Joshua Caspillo</a></h4>
+        <h4>E-mail: <a href="mailto:joshuacaspillo12@gmail.com">joshuacaspillo12@gmail.com</a></h4>
+        <h4>Contact Number: +63-9476352465/+63-955530119</h4>
+    </div>
+
+    <div class="personal">
+        <h2><b>Qualifications</b></h2>
+        <p>Proficient in various programming languages and tools, with a strong foundation in computer science principles. Enthusiastic about cybersecurity and keen on learning new technologies.</p>
+
+        <h2><b>Educational Background</b></h2>
+        <p>Graduated: BS Computer Science, Laguna State Polytechnic University - Los Banos </p>
+
+        <h2>Work Experience</h2>
+        <p>Currently seeking opportunities to gain professional experience in the field of computer science and cybersecurity.</p>
+
+        <h2>Certifications</h2>
+        <p>Basic Cybersecurity Certification</p>
+
+        <h2>Programming Languages</h2>
+        <p></p>
+    </div>
+
+    <script>
+        // When the user scrolls down 20px from the top, show the button
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("topBtn").style.display = "block";
+            } else {
+                document.getElementById("topBtn").style.display = "none";
+            }
+        }
+
+        // Scroll to the top when the user clicks the button
+        function topFunction() {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }
+    </script>
+
+</body>
+</html>
